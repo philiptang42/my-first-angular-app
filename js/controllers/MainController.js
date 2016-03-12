@@ -14,6 +14,18 @@ app.controller('MainController',
       price: 8,
       pubdate: new Date('2013', '08', '01'),
       cover: 'img/program-or-be-programmed.jpeg'
+    },
+    {
+      name: 'Book 3',
+      price: 666,
+      pubdate: new Date('2000', '06', '06'),
+      cover: ''
+    },
+    {
+      name: 'Book 4',
+      price: 777,
+      pubdate: new Date('1999', '12', '12'),
+      cover: ''
     }
   ]
 }]);
