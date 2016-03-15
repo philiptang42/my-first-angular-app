@@ -36,6 +36,9 @@ app.controller('MainController',
       dislikes: 0
     }
   ];
+    $scope.minusOne = function(index) {
+      $scope.products[index].dislikes += 1;
+    };
     $scope.plusOne = function(index) {
       $scope.products[index].likes += 1;
     };
